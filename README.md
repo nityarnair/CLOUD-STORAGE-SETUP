@@ -4,7 +4,7 @@
 
 **NAME** : NITYA R NAIR
 
-**INTERN ID** : 
+**INTERN ID** : CT04DK556
 
 **DOMAIN** :  CLOUD COMPUTING
 
@@ -31,7 +31,7 @@ By default, new buckets and their contents are private. To share my image with a
       "Effect": "Allow",
       "Principal": "*",
       "Action": "s3:GetObject",
-      "Resource": "arn:aws:s3:::your-bucket-name/*"
+      "Resource": "arn:aws:s3:::codtechawsbucket/*"
     }
   ]
 }
