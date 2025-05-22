@@ -19,7 +19,7 @@ For my first internship task, I learned how to set up and configure cloud storag
 I started by logging into the AWS Management Console and navigating to the S3 service. In S3, data is stored in containers called buckets. I clicked “Create bucket,” entered a unique name (S3 bucket names must be globally unique), selected my preferred AWS region, and left all other settings at their defaults. Versioning and encryption were turned off to keep things straightforward for this introductory task.
 
 2. Uploading the File
-Once the bucket was ready, I uploaded a single .jpg image. I opened the bucket, clicked “Upload,” selected the image from my local computer, and hit “Upload.” A progress bar appeared briefly, and then the file showed up in the bucket’s file list. This step confirmed that the bucket was working correctly.
+Once the bucket was ready, I uploaded a two .jpg images. I opened the bucket, clicked “Upload,” selected the image from my local computer, and hit “Upload.” A progress bar appeared briefly, and then the file showed up in the bucket’s file list. This step confirmed that the bucket was working correctly.
 
 3. Editing the Bucket Policy for Public Access
 By default, new buckets and their contents are private. To share my image with anyone, I needed to change the bucket’s access policy. Instead of making the object public one by one, I edited the bucket policy so that all objects in the bucket became readable by anyone on the internet. Under the bucket’s Permissions tab, I pasted this simple JSON policy:
